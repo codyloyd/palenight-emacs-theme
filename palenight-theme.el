@@ -1,5 +1,5 @@
 (deftheme palenight
-  "Created 2018-05-01.")
+  "Created 2018-05-02.")
 
 (custom-theme-set-variables
  'palenight
@@ -182,7 +182,6 @@
  '(web-mode-css-selector-face ((t (:inherit font-lock-keyword-face :foreground "#ff5370"))))
  '(web-mode-css-variable-face ((t (:inherit web-mode-variable-name-face :foreground "#bfc7d5" :slant italic))))
  '(web-mode-css-function-face ((t (:inherit font-lock-builtin-face :foreground "#82b1ff"))))
- '(css-property ((t (:foreground "#ffcb6b" :inherit font-lock-variable-name-face))))
  '(web-mode-css-priority-face ((t (:inherit (font-lock-builtin-face)))))
  '(js2-function-call ((t (:foreground "#89DDFF"))))
  '(js2-external-variable ((t (:foreground "#bfc7d5"))))
@@ -191,10 +190,6 @@
  '(js2-jsdoc-type ((t (:foreground "#697098" :slant italic))))
  '(js2-jsdoc-html-tag-delimiter ((((class color) (min-colors 88) (background light)) (:foreground "dark khaki")) (((class color) (min-colors 8) (background dark)) (:foreground "green")) (((class color) (min-colors 8) (background light)) (:foreground "green"))))
  '(js2-jsdoc-html-tag-name ((((class color) (min-colors 88) (background light)) (:foreground "rosybrown")) (((class color) (min-colors 8) (background dark)) (:foreground "yellow")) (((class color) (min-colors 8) (background light)) (:foreground "magenta"))))
- '(helm-swoop-target-line-face ((t (:background "#82b1ff" :foreground "#292D3E"))))
- '(helm-swoop-target-line-block-face ((t (:background "#82b1ff" :foreground "#292D3E"))))
- '(helm-swoop-line-number-face ((t (:foreground "#999999"))))
- '(helm-swoop-target-word-face ((t (:background "#c792ea" :foreground "#292D3E"))))
  '(underline ((t (:underline (:color foreground-color :style line)))))
  '(spaceline-evil-normal ((t (:background "#ffcb6b" :foreground "#3E3D31" :inherit (quote mode-line)))))
  '(spaceline-read-only ((t (:inherit (quote mode-line) :foreground "#3E3D31" :background "plum3"))))
@@ -208,7 +203,6 @@
  '(spaceline-evil-insert ((t (:inherit (quote mode-line) :foreground "#3E3D31" :background "#C3E88D"))))
  '(spaceline-highlight-face ((t (:inherit (quote mode-line) :foreground "#3E3D31" :background "DarkGoldenrod2"))))
  '(spaceline-python-venv ((t (:distant-foreground "DarkMagenta" :foreground "plum1"))))
- '(default ((t (:background "#292D3E" :foreground "#bfc7d5"))))
  '(magit-section-highlight ((t (:background "#33384d"))))
  '(magit-section-heading ((t (:foreground "#ffcb6b" :weight bold))))
  '(magit-section-secondary-heading ((t (:weight bold))))
@@ -223,6 +217,17 @@
  '(magit-diff-added ((t (:background "#3c4c38" :foreground "#ffffff"))))
  '(magit-diff-removed ((t (:background "#482424" :foreground "#ffffff"))))
  '(magit-diff-added-highlight ((t (:background "#4d7543" :foreground "#ffffff"))))
- '(magit-diff-removed-highlight ((t (:background "#663333" :foreground "#ffffff")))))
+ '(magit-diff-removed-highlight ((t (:background "#663333" :foreground "#ffffff"))))
+ '(default ((t (:background "#292D3E" :foreground "#bfc7d5"))))
+ '(org-level-1 ((t (:foreground "#c792ea" :weight bold :height 1.2))))
+ '(org-level-2 ((t (:foreground "#ff5370" :weight bold :height 1.1))))
+ '(org-level-3 ((t (:foreground "#ffcb6b"))))
+ '(org-level-4 ((t (:foreground "#82b1ff"))))
+ '(org-level-5 ((t (:foreground "#ff869a"))))
+ '(org-level-6 ((t (:inherit (outline-6)))))
+ '(org-level-7 ((t (:inherit (outline-7)))))
+ '(org-table ((((class color) (min-colors 88) (background light)) (:foreground "Blue1")) (((class color) (min-colors 88) (background dark)) (:foreground "LightSkyBlue")) (((class color) (min-colors 16) (background light)) (:foreground "Blue")) (((class color) (min-colors 16) (background dark)) (:foreground "LightSkyBlue")) (((class color) (min-colors 8) (background light)) (:foreground "blue")) (((class color) (min-colors 8) (background dark)) nil)))
+ '(org-todo ((t (:foreground "#89DDFF" :weight bold))))
+ '(org-done ((t (:foreground "#C3E88D" :weight bold)))))
 
 (provide-theme 'palenight)
